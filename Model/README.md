@@ -1,6 +1,6 @@
 # Introduction
 
-The primary experiments are conducted using the original version of the network, **FL-net(CNN)**. Additionally, we provide two variant versions of this network:
+The primary experiments are conducted using the original version of the network, **FL-net**. Additionally, we provide two variant versions of this network:
 
 - **FL-net(CNN)**: This variant incorporates convolutional layers to perform feature extraction experiments.
 
