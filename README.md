@@ -3,6 +3,7 @@
 Two floders are included.
 
 Dataset: Code for Gaussian and Lorentzian spectra and corresponding imaginary-time Green's functions are provided.
+
 Model: Code for FL-net and its variants is provided.
 
 # Environment Setting
