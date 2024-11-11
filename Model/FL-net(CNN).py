@@ -127,7 +127,7 @@ learning_rate2 = 0.00008
 
 num_epochs = 1500
 
-A_var = torch.var(I_A_val)
+A_var = torch.sum(torch.var(I_A_val, dim=0))/(I_A_val.shape[1])
 
 optimizer_A = torch.optim.Adam(Autoencoder.parameters(), lr=learning_rate1)
 optimizer_G = torch.optim.Adam(EncoderG.parameters(), lr=learning_rate2)
